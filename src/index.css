@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root { height: 100%; }
+
+.popup {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+  padding: 8px 10px;
+  font-size: 12px;
+  max-width: 280px;
+}
+.popup table { width: 100%; table-layout: fixed; border-collapse: collapse; }
+.popup table td { padding: 3px 6px; vertical-align: top; word-break: break-word; overflow-wrap: anywhere; border-bottom: 1px solid #e5e7eb; }
+.popup table tr:last-child td { border-bottom: none; }
+.popup table td:first-child { width: 35%; }
+.popup td.k { color: #6b7280; white-space: nowrap; }

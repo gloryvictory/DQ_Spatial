@@ -1,0 +1,6 @@
+[
+  {
+    "name_ru": "База Геоданных",
+    "dsn": "postgres://login:password@server:5432/bd?sslmode=disable"
+  }
+]
